@@ -16,3 +16,9 @@ Configure Alpaca API credentials.
 Run MLTrader strategy with custom parameters for symbol, risk, and sentiment thresholds.
 Backtest using historical data to evaluate performance or connect directly to Alpaca for paper trading.
 This project is ideal for exploring sentiment-based trading strategies, financial data analysis, and automated trading workflows in Python.
+
+# yahooSentiment.py
+This is a separate Sentiment Analysis Tool which analyzes recent financial news for multiple symbols to determine sentiment (positive, negative, or neutral) using an AI sentiment model. 
+Allows users to specify a custom date range for news analysis.
+Outputs sentiment data along with the probability of the sentiment being accurate, helping traders and analysts quickly gauge market sentiment.
+
